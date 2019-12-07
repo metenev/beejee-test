@@ -1,0 +1,14 @@
+.tasks > .task + .task {
+    margin-top: 1rem;
+}
+.sorting .form-group:first-of-type {
+    margin-right: -1px;
+}
+.sorting .form-group:first-of-type .form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.sorting .form-group:last-of-type .form-control {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

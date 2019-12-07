@@ -1,0 +1,24 @@
+{
+	"name": "metenev/beejee-test",
+	"description": "This app is a testing project for BeeJee",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Dmitry Metenyov",
+			"email": "metenyov.dmitriy@gmail.com"
+		}
+	],
+	"license": "MIT",
+	"require": {
+		"paragonie/anti-csrf": "^2.2",
+		"vlucas/phpdotenv": "^4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"BeeJeeTest\\Controller\\": "app/controller",
+			"BeeJeeTest\\Model\\": "app/model",
+			"BeeJeeTest\\Helper\\": "app/helper",
+			"BeeJeeTest\\Core\\": "core"
+		}
+	}
+}
